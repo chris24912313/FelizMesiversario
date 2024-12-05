@@ -243,13 +243,14 @@
     }
 
 </script>
+<button id="play-button">Reproducir Música</button>
+<audio loop autoplay id="myAudio" src="media\tu_cancion.mp3"></audio>
 <script>
     document.getElementById("play-button").addEventListener("click", function() {
         var audio = document.getElementById("myAudio");
         audio.play();});
 
 </script>
-<button id="play-button">Reproducir Música</button>
-<audio loop id="myAudio" src="media\tu_cancion.mp3"></audio>
+
 </body>
 </html>
